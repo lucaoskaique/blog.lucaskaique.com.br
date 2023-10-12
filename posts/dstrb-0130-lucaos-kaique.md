@@ -7,9 +7,15 @@ description: Set gravado para Coletivo de música eletrônica de Floripa - SC, B
 main-class: music
 color: "#6B4C9A"
 tags:
-  - ""
+  - eletronicmusic
+  - music
+  - dj
+  - sets
+twitter_text: Set gravado para Coletivo de música eletrônica de Floripa - SC, Brasil
+introduction: Lucaos Kaique, oriundo do interior de Goiás e atualmente estabelecido em terras gaúchas, desempenha um duplo papel como engenheiro de software profissional e dedicado produtor de eventos, propondo-se a criar atmosferas musicais únicas e experiências sonoras marcantes em seu tempo livre.
+categories: []
 ---
-DSTRB:0130
+# DSTRB:0130
 
 Lucaos Kaique, oriundo do interior de Goiás e atualmente estabelecido em terras gaúchas, desempenha um duplo papel como engenheiro de software profissional e dedicado produtor de eventos, propondo-se a criar atmosferas musicais únicas e experiências sonoras marcantes em seu tempo livre. Como membro-chave do @[coletivocentral](https://soundcloud.com/coletivocentral), ele tem sido o motor da transformação de bares em pontos culturais da cidade desde 2019, promovendo a cultura DJ e oferecendo acesso para aqueles que estão começando na música.
 
@@ -24,7 +30,7 @@ Agradeço o espaço disponibilizado pela DSTRB e espero que gostem.
 @[lucaoskaique](https://soundcloud.com/lucaoskaique)\
 [instagram.com/lucaoskaique](https://gate.sc/?url=http%3A%2F%2Finstagram.com%2Flucaoskaique&token=688d2a-1-1697143396480 "http\://instagram.com/lucaoskaique")
 
-  ##  Tracklist
+##  Tracklist
 -------------------------------------------------------------------------------
 1.  Merca Bae - WYLYL - Merca Bae
 2.  la track 5 v2 - Teo Coelho
