@@ -24,9 +24,9 @@ Agradeço o espaço disponibilizado pela DSTRB e espero que gostem.
 @[lucaoskaique](https://soundcloud.com/lucaoskaique)\
 [instagram.com/lucaoskaique](https://gate.sc/?url=http%3A%2F%2Finstagram.com%2Flucaoskaique&token=688d2a-1-1697143396480 "http\://instagram.com/lucaoskaique")
 
-1.   |                       |                                                        |                                          |
+   |                       |                                                        |                                          |
    | --------------------- | ------------------------------------------------------ | ---------------------------------------- |
-   | <!--StartFragment--># | Título da Faixa                                        | Intérprete                               |
+   | # | Título da Faixa                                        | Intérprete                               |
    | 1                     | Merca Bae - WYLYL                                      | Merca Bae                                |
    | 2                     | la track 5 v2                                          | Teo Coelho                               |
    | 3                     | Xnx Dmg (Nick León Jungle Edit)                        | Nick León & Future                       |
@@ -48,4 +48,4 @@ Agradeço o espaço disponibilizado pela DSTRB e espero que gostem.
    | 19                    | La Murga (Michael's Midnight Mix)                      | Michael Bibi                             |
    | 20                    | DANI GIRL PUMPING IT (Remastered)                      | MOOEY DECK                               |
    | 21                    | Tell Me                                                | Baltra                                   |
-   | 22                    | Sticky (BAVR \_Lady\_ Flip)                            | BAVR<!--EndFragment-->                   |
+   | 22                    | Sticky (BAVR \_Lady\_ Flip)                            | BAVR                  |
