@@ -24,28 +24,28 @@ Agradeço o espaço disponibilizado pela DSTRB e espero que gostem.
 @[lucaoskaique](https://soundcloud.com/lucaoskaique)\
 [instagram.com/lucaoskaique](https://gate.sc/?url=http%3A%2F%2Finstagram.com%2Flucaoskaique&token=688d2a-1-1697143396480 "http\://instagram.com/lucaoskaique")
 
-  #  Track                                                       Artist
+  ##  Tracklist
 -------------------------------------------------------------------------------
-  1  Merca Bae - WYLYL                                             Merca Bae
-  2  la track 5 v2                                                 Teo Coelho
-  3  Xnx Dmg (Nick León Jungle Edit)                               Nick León & Future
-  4  Freestyler                                                    Bomfunk MCs
-  5  love him                                                      Two Shell
-  6  Counting                                                      Hamdi
-  7  Satyr                                                         O’Flynn Feat Frazer Ray
-  8  V2 Little Things - Jorja Smith (bullet tooth Bootleg)          bullet tooth
-  9  Outta Space                                                   DJ Deekline presents Cut & Run
- 10  Straight to the World (Baymont Bross Remix)                    Beat Assassins
- 11  HOJE (Bonus Track)                                            Sidoka
- 12  Flashing Hype                                                 Sam Interface
- 13  Girl Riddim vs. Temperature                                   Murder He Wrote
- 14  Fuego ft Baby Perigosa (Bitter Babe & Nick Leon Remix)         Florentino, Isabella Lovestory, MC Buzzz
- 15  Groove Theory - Tell Me (Nora Zion Edit)                       Nora Zion
- 16  JETAIME                                                       Isabella LoveStory
- 17  CHIBI (Nick León Remix)                                       Esty
- 18  4- Frida Kahlo by MJ Nebreda, Dj Babatr, Yung Iverson          MJ Nebreda, Dj Babatr, Yung Iverson
- 19  La Murga (Michael's Midnight Mix)                             Michael Bibi
- 20  DANI GIRL PUMPING IT (Remastered)                             MOOEY DECK
- 21  Tell Me                                                       Baltra
- 22  Sticky (BAVR \_Lady\_ Flip)                                   BAVR
+  1.  Merca Bae - WYLYL - Merca Bae
+  2.  la track 5 v2 - Teo Coelho
+  3.  Xnx Dmg (Nick León Jungle Edit) - Nick León & Future
+  4.  Freestyler - Bomfunk MCs
+  5.  love him - Two Shell
+  6.  Counting - Hamdi
+  7.  Satyr - O’Flynn Feat Frazer Ray
+  8.  V2 Little Things - Jorja Smith (bullet tooth Bootleg) - bullet tooth
+  9.  Outta Space - DJ Deekline presents Cut & Run
+ 10.  Straight to the World (Baymont Bross Remix) - Beat Assassins
+ 11.  HOJE (Bonus Track) - Sidoka
+ 12.  Flashing Hype - Sam Interface
+ 13.  Girl Riddim vs. Temperature - Murder He Wrote
+ 14.  Fuego ft Baby Perigosa (Bitter Babe & Nick Leon Remix) - Florentino, Isabella Lovestory, MC Buzzz
+ 15.  Groove Theory - Tell Me (Nora Zion Edit) - Nora Zion
+ 16.  JETAIME - Isabella LoveStory
+ 17.  CHIBI (Nick León Remix) - Esty
+ 18.  4- Frida Kahlo by MJ Nebreda, Dj Babatr, Yung Iverson - MJ Nebreda, Dj Babatr, Yung Iverson
+ 19.  La Murga (Michael's Midnight Mix) - Michael Bibi
+ 20.  DANI GIRL PUMPING IT (Remastered) - MOOEY DECK
+ 21.  Tell Me - Baltra
+ 22.  Sticky (BAVR \_Lady\_ Flip) - BAVR
 
