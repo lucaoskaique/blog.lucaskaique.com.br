@@ -5,7 +5,7 @@ image: /assets/img/364353936_198141723238398_4935006635811150078_n.jpg
 title: DSTRB:0130 - Lucaos Kaique
 description: Set gravado para Coletivo de música eletrônica de Floripa - SC, Brasil
 main-class: music
-color: "#6B4C9A"
+color: '#6B4C9A'
 tags:
   - eletronicmusic
   - music
@@ -15,7 +15,12 @@ twitter_text: Set gravado para Coletivo de música eletrônica de Floripa - SC, 
 introduction: Lucaos Kaique, oriundo do interior de Goiás e atualmente estabelecido em terras gaúchas, desempenha um duplo papel como engenheiro de software profissional e dedicado produtor de eventos, propondo-se a criar atmosferas musicais únicas e experiências sonoras marcantes em seu tempo livre.
 categories: []
 ---
-# DSTRB:0130
+
+# DSTRB:0130 - Lucaos Kaique
+
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1581081291&color=%231eff00&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/disturbiodstrb" title="DSTRB" target="_blank" style="color: #cccccc; text-decoration: none;">DSTRB</a> · <a href="https://soundcloud.com/disturbiodstrb/dstrb0130-lucaos-kaique" title="DSTRB:0130 • Lucaos Kaique" target="_blank" style="color: #cccccc; text-decoration: none;">DSTRB:0130 • Lucaos Kaique</a></div>
+
+<br/>
 
 Lucaos Kaique, oriundo do interior de Goiás e atualmente estabelecido em terras gaúchas, desempenha um duplo papel como engenheiro de software profissional e dedicado produtor de eventos, propondo-se a criar atmosferas musicais únicas e experiências sonoras marcantes em seu tempo livre. Como membro-chave do @[coletivocentral](https://soundcloud.com/coletivocentral), ele tem sido o motor da transformação de bares em pontos culturais da cidade desde 2019, promovendo a cultura DJ e oferecendo acesso para aqueles que estão começando na música.
 
@@ -28,10 +33,12 @@ Adicionando nuances de latin club e pop music, o set ganha uma pitada exótica, 
 Agradeço o espaço disponibilizado pela DSTRB e espero que gostem.
 
 @[lucaoskaique](https://soundcloud.com/lucaoskaique)\
-[instagram.com/lucaoskaique](https://gate.sc/?url=http%3A%2F%2Finstagram.com%2Flucaoskaique&token=688d2a-1-1697143396480 "http\://instagram.com/lucaoskaique")
+[instagram.com/lucaoskaique](https://gate.sc/?url=http%3A%2F%2Finstagram.com%2Flucaoskaique&token=688d2a-1-1697143396480 'http://instagram.com/lucaoskaique')
 
-##  Tracklist
--------------------------------------------------------------------------------
+## Tracklist
+
+---
+
 1. Merca Bae - WYLYL - Merca Bae
 2. la track 5 v2 - Teo Coelho
 3. Xnx Dmg (Nick León Jungle Edit) - Nick León & Future

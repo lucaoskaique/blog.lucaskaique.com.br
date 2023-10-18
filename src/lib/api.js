@@ -10,20 +10,25 @@ const postsDirectory = join(process.cwd(), 'posts')
 export function getPostBySlug(slug) {
   if (!slug) return null
 
-  const realSlug = slug.replace(/\.md$/, '')
-  const fullPath = join(postsDirectory, `${realSlug}.md`)
-  const fileContents = fs.readFileSync(fullPath, 'utf8')
-  const { data, content } = matter(fileContents)
+  try {
+    const realSlug = slug.replace(/\.md$/, '')
+    const fullPath = join(postsDirectory, `${realSlug}.md`)
+    const fileContents = fs.readFileSync(fullPath, 'utf8')
+    const { data, content } = matter(fileContents)
 
-  const date = format(new Date(data.date), "dd 'de' MMMM 'de' yyyy", {
-    locale: pt
-  })
+    const date = format(new Date(data.date), "dd 'de' MMMM 'de' yyyy", {
+      locale: pt
+    })
 
-  return {
-    slug: realSlug,
-    date: data.date.toString(),
-    frontmatter: { ...data, date },
-    content
+    return {
+      slug: realSlug,
+      date: data.date.toString(),
+      frontmatter: { ...data, date },
+      content
+    }
+  } catch (error) {
+    console.error('Error reading the file:', error)
+    return null
   }
 }
 
