@@ -41,11 +41,13 @@ O hook **useEffect()** pode receber dois parâmetros: o primeiro é uma função
 Um ponto que confunde muitos iniciantes é como o segundo parâmetro funciona. Aqui está um resumo:
 
 > Caso A: Se nada for adicionado, então **useEffect** será executado a cada mudança de estado dentro do componente atual.
+>﻿
 
 > *Caso B: Se um array vazio for adicionado ([]), então o **useEffect** será executado apenas uma vez quando o componente for montado.*
 
 
 > *Caso C: Se algum array for fornecido ([estado]), então **useEffect** será executado toda vez que o estado mudar.*
+>﻿
 > *Caso D: Se algum array for fornecido ([estado1, estado2, …], **useEffect** será executado toda vez que **QUALQUER** um desses estados mudar.*
 
 Agora que revisamos como o **useEffect** funciona, é essencial aprofundar-se em uma técnica de otimização conhecida como *memoização*. *Memoização* ajuda a prevenir renderizações desnecessárias e pode melhorar significativamente o desempenho dos seus componentes, especialmente ao lidar com arrays de dependências no **useEffect**.
