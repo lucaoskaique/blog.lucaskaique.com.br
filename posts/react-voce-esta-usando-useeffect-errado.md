@@ -14,9 +14,7 @@ categories:
   - react
   - hooks
 ---
-Peço desculpas por qualquer confusão anterior. Vamos à tradução do texto:
 
----
 
 Uma vez que se decide avançar com o aprendizado do **React**, hooks estão entre as primeiras coisas a aprender (e se frustrar). Hooks são partes essenciais do **React**, já que foram criados para resolver vários problemas que apareceram nas primeiras versões do **React**, quando todo o render era feito dentro das funções do ciclo de vida do componente, como **componentDidMount()**, **componentWillMount()**, **componentDidUpdate()**.
 
