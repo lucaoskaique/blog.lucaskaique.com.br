@@ -24,7 +24,7 @@ Dito isso, os primeiros hooks que todos começam a usar são **useState()** e **
 O hook **useEffect()** pode receber dois parâmetros: o primeiro é uma função de retorno de chamada, enquanto o segundo é opcional e define quando esse hook deve ser chamado.
 
 
-```
+```javascript
   useEffect((prevProps) => { // prevProps são opcionais e têm alguns usos específicos. Compare com o que acontece com as funções do ciclo de vida.
     // Conteúdo da função personalizada…
     conteúdo da função personalizada…
@@ -35,6 +35,7 @@ O hook **useEffect()** pode receber dois parâmetros: o primeiro é uma função
     };
   }, [dependências em forma de array]);
 ```
+
 
 
 Um ponto que confunde muitos iniciantes é como o segundo parâmetro funciona. Aqui está um resumo:
