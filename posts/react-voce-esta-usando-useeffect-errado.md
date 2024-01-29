@@ -24,7 +24,7 @@ Dito isso, os primeiros hooks que todos começam a usar são **useState()** e **
 O hook **useEffect()** pode receber dois parâmetros: o primeiro é uma função de retorno de chamada, enquanto o segundo é opcional e define quando esse hook deve ser chamado.
 
 
-```javascript
+```
   useEffect((prevProps) => { // prevProps são opcionais e têm alguns usos específicos. Compare com o que acontece com as funções do ciclo de vida.
     // Conteúdo da função personalizada…
     conteúdo da função personalizada…
@@ -49,13 +49,18 @@ Um ponto que confunde muitos iniciantes é como o segundo parâmetro funciona. A
 
 Agora que revisamos como o **useEffect** funciona, é essencial aprofundar-se em uma técnica de otimização conhecida como *memoização*. *Memoização* ajuda a prevenir renderizações desnecessárias e pode melhorar significativamente o desempenho dos seus componentes, especialmente ao lidar com arrays de dependências no **useEffect**.
 
+
 A ideia principal do hook **useEffect** é sincronizar a transferência de dados com **APIs** externas ou outro sistema, como quando você está acessando um banco de dados ou esperando que uma requisição **HTTP** seja completada. O problema é que tendemos a usar esse hook em toda situação possível dentro do nosso código, especialmente nos *Casos A* e C mencionados acima, e o código pode se tornar incrivelmente ilegível com apenas algumas linhas de código, incluindo disparar um loop se você mudar um dos estados no array de dependências durante o processo.
+
 
 Isso também pode tornar seu código ineficiente, já que o useEffect funciona como se você estivesse se afastando para executar algum código e depois voltando para a thread principal. Isso poderia ser mais eficiente.
 
 Ótimo, agora você sabe que, às vezes, **useEffect** não é a melhor solução. Agora vamos olhar cada caso em detalhe.
 
+
 Vamos falar sobre cada um dos casos de uso em detalhe:
+
+
 
 > Caso A — Sem array de dependência: Este deve ser abolido do seu código, pois certamente disparará cálculos desnecessários toda vez que um estado mudar. Neste caso, você deve especificar quais estados realmente devem disparar essa função usando um array de dependências.
 
@@ -69,7 +74,8 @@ Vamos falar sobre cada um dos casos de uso em detalhe:
 
 Agora para a solução que prometi. Vamos considerar estes dois Componentes (Pai e Filho):
 
-```javascript
+
+```
 // ParentComponent.js
 import React, { useState, useEffect } from 'react';
 import ChildComponent from './ChildComponent';
@@ -106,20 +112,23 @@ function ChildComponent({ contagem, mensagem, setContagem }) {
 export default ChildComponent;
 ```
 
+
+
 Agora vamos explicar o que está acontecendo aqui:
 
 > 1 — Uma vez que o usuário clica no botão no Componente Filho, mudamos o estado "contagem" incrementando 1. Isso levará um ciclo de renderização para acontecer e mudar o estado.
-> 
-> *2 — Uma vez que o estado "contagem" muda, o componente filho será renderizado novamente e também disparará o hook **useEffect** em ambos os componentes, o que disparará a mudança no estado "mensagem". Novamente, isso só acontecerá no próximo render.*
-> 
-> *3 — Quando o estado "mensagem" muda, então outra renderização acontece nos componentes mudando a mensagem.*
-> 
-> *Neste caso, acabamos tendo duas renderizações. Pode não parecer muito, mas pode crescer em grande escala uma vez que você tem mais estados em jogo.*
-> 
-> *Agora veja o que acontece quando fazemos as seguintes mudanças nos componentes:*
-> 
 
-```javascript
+> *2 — Uma vez que o estado "contagem" muda, o componente filho será renderizado novamente e também disparará o hook **useEffect** em ambos os componentes, o que disparará a mudança no estado "mensagem". Novamente, isso só acontecerá no próximo render.*
+
+> *3 — Quando o estado "mensagem" muda, então outra renderização acontece nos componentes mudando a mensagem.*
+
+> *Neste caso, acabamos tendo duas renderizações. Pode não parecer muito, mas pode crescer em grande escala uma vez que você tem mais estados em jogo.*
+
+> *Agora veja o que acontece quando fazemos as seguintes mudanças nos componentes:*
+
+
+
+```
 
 // ParentComponent.js
 import React, { useState } from 'react';
@@ -158,6 +167,8 @@ function ChildComponent({ contagem, mensagem, callbackFunction }) {
 export default ChildComponent;
 
 ```
+
+
 
 Mudamos o código para passar uma **Função de Retorno de Chamada** para o Componente Filho. Você pode notar que:
 
