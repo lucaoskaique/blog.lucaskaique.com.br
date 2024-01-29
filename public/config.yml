@@ -1,7 +1,7 @@
 backend:
   name: github
   branch: main
-  repo: lucaoskaique/lucaskaique.com.br
+  repo: lucaoskaique/blog.lucaskaique.com.br
   base_url: https://blog.lucaskaique.com.br/
   auth_endpoint: api/auth/
 
