@@ -76,7 +76,7 @@ Vamos falar sobre cada um dos casos de uso em detalhe:
 Agora para a solução que prometi. Vamos considerar estes dois Componentes (Pai e Filho):
 
 
-```
+```javascript
 // ParentComponent.js
 import React, { useState, useEffect } from 'react';
 import ChildComponent from './ChildComponent';
@@ -129,7 +129,7 @@ Agora vamos explicar o que está acontecendo aqui:
 
 
 
-```
+```javascript
 
 // ParentComponent.js
 import React, { useState } from 'react';
