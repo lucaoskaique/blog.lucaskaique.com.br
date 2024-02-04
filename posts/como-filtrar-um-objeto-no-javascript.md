@@ -12,6 +12,8 @@ color: "#D6BA32"
 tags:
   - programming
   - javascript
+  - js
+  - dicas
 categories:
   - javascript
 ---
