@@ -7,6 +7,7 @@
   "dependencies": {
     "@babel/core": "^7.14.6",
     "@openlab/vercel-netlify-cms-github": "^1.1.0",
+    "@vercel/og": "^0.6.2",
     "algoliasearch": "^4.10.2",
     "babel-plugin-prismjs": "^2.1.0",
     "babel-plugin-styled-components": "^1.12.0",
@@ -56,9 +57,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lucaoskaique/lucaskaique.com.br"
+    "url": "https://github.com/lucaoskaique/blog.lucaskaique.com.br"
   },
   "bugs": {
-    "url": "https://github.com/lucaoskaique/lucaskaique.com.br"
+    "url": "https://github.com/lucaoskaique/blog.lucaskaique.com.br"
   }
 }
