@@ -36,7 +36,7 @@ const BlogPost = ({ post }) => {
             {
               url: `https://og-image-service.lucaskaique.com.br/api/param?title=${encodeURIComponent(
                 post.frontmatter.title
-              )}.png`,
+              )}`,
               alt: `${post.frontmatter.title}`
             }
           ]
