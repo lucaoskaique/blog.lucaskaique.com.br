@@ -7,13 +7,16 @@ export const PostWrapper = styled.section`
   align-items: center;
   border-bottom: 1px solid var(--borders);
   display: flex;
-  padding: 2rem 3rem;
+  padding: 10rem 3rem;
   width: 100%;
+  margin: 2rem 2rem;
   transition: ${transitions.ALL};
+  border: 0.4rem solid var(--borders);
 
   ${media.lessThan('large')`
     align-items: flex-start;
     flex-direction: column;
+    border: 0.1rem solid var(--borders);
     padding: 2rem 1rem;
   `}
 `
@@ -92,7 +95,7 @@ export const PostDate = styled.time`
 `
 
 export const PostTitle = styled.h1`
-  font-size: 1.6rem;
+  font-size: 2.6rem;
   font-weight: 700;
   margin: 0.2rem 0 0.5rem;
 `
