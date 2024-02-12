@@ -7,6 +7,9 @@ export const ProfileContainer = styled.section`
   display: ${props => (props.isMobileHeader ? 'none' : 'flex')};
   color: var(--texts);
   flex-direction: column;
+  text-align: center;
+  padding: 2rem 1rem;
+  border-bottom: 1px solid var(--borders);
 
   ${media.lessThan('large')`
     align-items: flex-start;

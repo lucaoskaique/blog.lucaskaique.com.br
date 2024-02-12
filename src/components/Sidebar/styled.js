@@ -16,6 +16,7 @@ export const SidebarContainer = styled.aside`
   width: 20rem;
   transition: ${transitions.ALL};
   z-index: 2;
+  border: 0.4rem solid var(--borders);
 
   ${media.lessThan('large')`
     align-items: flex-start;
@@ -25,6 +26,7 @@ export const SidebarContainer = styled.aside`
     width: 100%;
     transform: ${props =>
       props.isMenuOpen ? 'translateX(0)' : 'translateX(-100vw)'};
+    border: 0.1rem solid var(--borders);
   `}
 `
 
