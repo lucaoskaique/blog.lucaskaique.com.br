@@ -16,6 +16,8 @@ tags:
 categories:
   - javascript
 ---
+![](/assets/img/imagem_2024-02-04_202622872.png "Evoluindo na Programação: Lições de um Full Stack")
+
 ### **Evoluindo na Programação: Lições de um Full Stack**
 
 Há quase um ano, entrei numa experiência muito divertida no mundo do desenvolvimento, participando ativamente do Dev em Dobro, ajudando no papel de instrutor e mentor. Durante esse período, não apenas compartilhei conhecimentos e esclareci dúvidas, mas também testemunhei o crescimento impressionante de inúmeros alunos, do zero à competência em desenvolvimento web.
