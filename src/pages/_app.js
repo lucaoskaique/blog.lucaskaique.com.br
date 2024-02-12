@@ -36,7 +36,7 @@ function App({ Component, pageProps }) {
         <meta name="theme-color" content="#06092B" />
         <meta
           name="google-site-verification"
-          content="8kDtWUmUQEh7QXoj_shRaxcgYAVpHs_YQ7TeniN0kmI"
+          content="PyTe9sCP4SOqxKSYrFKmGSkrVY23mjePNyTUE0K_vXQ"
         />
         <meta
           name="description"
