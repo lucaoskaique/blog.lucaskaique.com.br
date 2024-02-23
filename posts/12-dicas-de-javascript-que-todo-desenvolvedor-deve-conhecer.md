@@ -11,8 +11,9 @@ tags:
   - javascript
   - development
 ---
-Salve galera! Sextou hoje e quero compartilhar com vocês 12 dicas super úteis que podem melhorar significativamente suas habilidades de programação e a eficiência do desenvolvimento de projetos. Essas dicas abrangem desde manipulações de strings até a melhoria da segurança do código. Chega mais!!!
+![javascript mental](/assets/img/eok1jcbxeai0xui.jpg "javascript mental")
 
+Salve galera! Sextou hoje e quero compartilhar com vocês 12 dicas super úteis que podem melhorar significativamente suas habilidades de programação e a eficiência do desenvolvimento de projetos. Essas dicas abrangem desde manipulações de strings até a melhoria da segurança do código. Chega mais!!!
 
 1. **Camel Case Superior**: Escreva nomes compostos com a primeira letra de cada palavra em maiúsculo, exceto a primeira. É mais que um estilo; é um padrão que traz clareza ao seu código.
 
@@ -117,21 +118,22 @@ Salve galera! Sextou hoje e quero compartilhar com vocês 12 dicas super úteis 
        browserVersion: browserMatch ? browserMatch\[2] : 'Desconhecido'
      };
    }
-
+   ```
 9. **Informações do Sistema Operacional**: Saiba com qual sistema operacional o usuário está navegando para otimizar sua experiência.
-    ```javascript
-    function getUserOsInfo() {
-      const userAgent = navigator.userAgent;
-      const osRegex = /((Windows NT)|(Mac OS X)|(Android)|(iOS))\s*([\d._]+)/;
-      const osMatch = userAgent.match(osRegex);
-      return {
-        osName: osMatch ? osMatch[1] : 'Desconhecido',
-        osVersion: osMatch ? osMatch[5] : 'Desconhecido'
-      };
-    }
-    ```
 
+   ```javascript
+   function getUserOsInfo() {
+     const userAgent = navigator.userAgent;
+     const osRegex = /((Windows NT)|(Mac OS X)|(Android)|(iOS))\s*([\d._]+)/;
+     const osMatch = userAgent.match(osRegex);
+     return {
+       osName: osMatch ? osMatch[1] : 'Desconhecido',
+       osVersion: osMatch ? osMatch[5] : 'Desconhecido'
+     };
+   }
+   ```
 10. **Validação de Data**: Garanta que as datas de início e fim sejam coerentes e lógicas.
+
     ```javascript
     function compareDate(beginDate, endDate) {
       const start = new Date(beginDate);
@@ -148,13 +150,12 @@ Salve galera! Sextou hoje e quero compartilhar com vocês 12 dicas super úteis 
       if (r != null) return unescape(r[2]); return null;
     }
     ```
-
 12. **Exportação de Arquivos Excel**: Simplifique a criação e exportação de arquivos Excel com uma função personalizada.
+
     ```javascript
     function exportExcel(headers, data, fileName = 'export.xlsx') {
       // Código simplificado para a criação e exportação do arquivo Excel
     }
     ```
-
 
 Espero que essas dicas ajudem vocês!!! Até a mais!!!!
