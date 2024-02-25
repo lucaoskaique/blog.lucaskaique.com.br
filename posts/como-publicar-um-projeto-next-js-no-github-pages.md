@@ -41,8 +41,9 @@ Para gente seguir nessa quest, um pouquinho de bagagem é necessário. Um conhec
 ### Guia Rápido:
 
 1. **Ative o GitHub Pages**: Vá nas configurações do seu repositório, ache a seção do GitHub Pages e configure para usar as GitHub Actions. Você está basicamente dizendo ao GitHub: "Ei, vou automatizar isso, fique de olho".
-
    ![GitHub Project Settings](/assets/img/passo1.png "GitHub Project Settings")
+
+   ![GitHub Project Settings – GitHub Pages configuration](/assets/img/passo2.png "GitHub Project Settings – GitHub Pages configuration")
 2. **Prepare seu App Next.js**: Como o GitHub Pages prefere conteúdo estático, você vai ajustar seu Next.js para saída de páginas estáticas. Você vai mexer no `next.config.js` para garantir que ele exporte seu projeto como arquivos estáticos. Assim, o GitHub pode exibir seu site sem problemas.
 3. **Corrija Problemas de Caminho**: Seu projeto pode ter problemas com imagens ou estilos quebrados porque o GitHub Pages coloca ele em um subdiretório. Você vai resolver isso definindo um `basePath` no seu `next.config.js`. Isso diz ao seu app: "Ei, não estamos mais no mesmo lugar; estamos nesse novo endereço".
 4. **Configure as GitHub Actions**: Aqui é onde a mágica acontece. Você vai criar duas actions: uma para configurar o Node.js (tipo preparando seu ambiente) e outra para a mágica de publicação (levando seu lindo site estático para o mundo ver).
