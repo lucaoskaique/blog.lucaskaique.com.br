@@ -12,14 +12,14 @@ tags:
   - deploy
   - github
 ---
-# Como publicar um projeto Next.js no Github Pages
-
 ## Neste artigo, vou te orientar no processo de publicação de um projeto Next.js no Github Pages .
 
 Eu trabalho no [Dev em Dobro](https://www.instagram.com/devemdobro/), uma Edtech cuja missão é ajudar devs iniciantes a se sentirem menos perdidos quando começam a aprender programação. Pensando nisso, frequentemente organizamos eventos gratuitos onde ensinamos a criar um site do zero com HTML, CSS e JavaScript. E no final, mostramos como subir seu site para deixá-lo online utilizando o GitHub Pages.
 
 Se você ainda não conhece, o GitHub Pages é uma plataforma de hospedagem gratuita dentro do GitHub que permite aos usuários publicar sites diretamente a partir de um repositório no GitHub. Isso significa que você pode hospedar seu código-fonte no GitHub e transformá-lo em um site acessível para qualquer pessoa na internet. É uma ótima ferramenta para apresentar seus projetos, portfólios ou até mesmo artigos de blog. Além disso, é bastante popular entre os desenvolvedores devido à sua integração com o GitHub e à facilidade de uso.
 
+Muitos alunos tentam sempre fazer deploy de uma aplicação no GitHub Pages mas não sabem realmente como ele funciona. Muitos alunos tentam sempre fazer deploy de uma aplicação no github pages mas não sabe realmente como ele funciona. Eles tentam fazer o deploy e, quando algo dá errado, ficam frustrados, e vem chorar "ah mas não funciona" 😂. Brincadeiras a parte, mas entender o GitHub Pages é o primeiro passo para o sucesso. Lembre que, ele é destinado para arquivos estáticos, e aqui entra o pulo do gato para projetos Next.js: você precisa transformá-los de dinâmicos para estáticos. 
+ 
 Este tutorial vai ser muito massa porque vamos integrar as GitHub Actions com o GitHub Pages. Isso significa que você não vai estar apenas publicando sua aplicação Next.js na internet; você vai estar configurando uma pipeline automática. Uma pipeline é um conjunto de processos e ferramentas automatizados, comumente usado em integração contínua e entrega contínua (CI/CD). Nesse contexto, uma pipeline é um processo que guia o desenvolvimento de software através de um caminho de criação, testes e implantação do código. O objetivo da automação do processo é minimizar erros humanos e manter a consistência até a implantação.
 
 Assim, toda vez que você atualizar seu código no seu repositório GitHub, as GitHub Actions entrarão em cena e farão o deploy do seu projeto direto no GitHub Pages. Prático, né?
