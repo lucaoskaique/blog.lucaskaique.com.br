@@ -212,9 +212,7 @@ const username = data ?? 'Visitante';
 const user = {
   name: 'Lucas Kaique',
   age: 30,
-  country: '
-
-Brasil'
+  country: 'Brasil'
 };
 
 const name = user.name;
