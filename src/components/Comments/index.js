@@ -28,7 +28,7 @@ const Comments = ({ title }) => {
     scriptEl.setAttribute('theme', utterancesTheme)
     scriptEl.setAttribute('src', 'https://utteranc.es/client.js')
     scriptEl.setAttribute('crossorigin', 'anonymous')
-    scriptEl.setAttribute('repo', 'lucaskaique/blog.lucaskaique.com.br')
+    scriptEl.setAttribute('repo', 'lucaoskaique/blog.lucaskaique.com.br')
     scriptEl.setAttribute('issue-term', 'title')
     commentBox.current.replaceChildren(scriptEl)
 
