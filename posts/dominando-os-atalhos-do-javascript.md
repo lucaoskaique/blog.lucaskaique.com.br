@@ -1,10 +1,10 @@
 ---
 layout: post
 date: 2024-02-26 01:56:55
-title: Dominando as malicias do JavaScript
-description: Eu sou Lucas Kaique, seu engenheiro de software dedicado, trazendo
-  mais insights de JavaScript. Hoje, nosso foco está nos atalhos de JavaScript,
-  técnicas que ajudam a tornar seu código mais limpo e eficaz.
+title: Dominando as malicias do JavaScript 😈
+description: Hoje, nosso foco está nos atalhos que gosto de chamar de "malicias"
+  de JavaScript, são técnicas que ajudam a deixar seu código mais limpo e
+  eficaz.
 main-class: js
 color: "#D6BA32"
 tags:
