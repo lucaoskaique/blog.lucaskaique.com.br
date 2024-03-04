@@ -15,7 +15,6 @@ tags:
   - software
   - development
 ---
-
 ![TB-303](https://static.roland.com/promos/global_events/303day/tb-303_tr-606.jpg "TB-303")
 
 Era uma vez, em 1981, em uma terra tecnológica de Osaka, no Japão, uma pequena caixa prateada emergiu dos confins criativos da Roland Corporation. Esta não era uma caixa qualquer; era o TB-303, uma criação destinada a substituir o baixista humano para artistas solitários. Desenhado sob a supervisão do engenhoso Tadao Kikumoto, o TB-303 deveria ser o parceiro perfeito para a máquina de ritmos TR-606, unidos pelo revolucionário DIN Sync.
@@ -86,10 +85,13 @@ Para os desenvolvedores, a mensagem é clara: a inovação não se trata apenas 
 
 Então, da próxima vez que você visitar o Roland50.studio e brincar com o TB-303 virtual, lembre da jornada deste pequeno sintetizador: de Osaka para o mundo, do esquecimento ao estrelato, e agora, para a nuvem. E lembre, na programação como na música, sempre há espaço para reinvenção e inovação.
 
+\*\*Bônus: Playlist que utilizando o TB-303\*\*
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DX202yvKb0g9m?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
 
 
 **Links importantes**
 
-\- https://www.roland.com/uk/promos/303day/
-
-\- https://www.roland.com/uk/products/tb-03/
+* <https://www.roland.com/uk/promos/303day/>
+* <https://www.roland.com/uk/products/tb-03/>
