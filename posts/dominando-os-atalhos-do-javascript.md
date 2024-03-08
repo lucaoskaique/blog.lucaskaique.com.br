@@ -12,6 +12,8 @@ tags:
   - js
   - development
 ---
+![Evil cowboy](https://res.cloudinary.com/lucaos/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1708976693/lucaoskaique/DALL_E_2024-02-26_16.21.43_-_Create_an_image_of_a_mischievous_devilish_emoji_character_but_with_a_unique_twist__it_s_wearing_a_cowboy_hat._The_character_should_embody_the_playfu.webp "Evil Cowboy")
+
 Salve, galerinha viciada em JavaScript!
 
 Eu sou Lucas Kaique, seu engenheiro de software dedicado, trazendo mais insights de JavaScript. Hoje, nosso foco está nos atalhos que gosto de chamar de "malicias" de JavaScript, são técnicas que ajudam a deixar seu código mais limpo e eficaz.
@@ -210,9 +212,7 @@ const username = data ?? 'Visitante';
 const user = {
   name: 'Lucas Kaique',
   age: 30,
-  country: '
-
-Brasil'
+  country: 'Brasil'
 };
 
 const name = user.name;
