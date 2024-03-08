@@ -14,7 +14,6 @@ module.exports = {
   async rewrites() {
     return [
       { source: '/js/', destination: 'https://lucaskaique.com.br/' },
-      { source: '/loja/', destination: 'https://coice.sualojaonline.app' },
       { source: '/jekyll/', destination: 'https://lucaskaique.com.br/' },
       { source: '/svg/', destination: 'https://lucaskaique.com.br/' },
       { source: '/dev/', destination: 'https://lucaskaique.com.br/' },
