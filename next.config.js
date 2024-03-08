@@ -14,13 +14,14 @@ module.exports = {
   async rewrites() {
     return [
       { source: '/js/', destination: 'https://lucaskaique.com.br/' },
+      { source: '/loja/', destination: 'https://coice.sualojaonline.app' },
       { source: '/jekyll/', destination: 'https://lucaskaique.com.br/' },
       { source: '/svg/', destination: 'https://lucaskaique.com.br/' },
       { source: '/dev/', destination: 'https://lucaskaique.com.br/' },
       { source: '/tags/', destination: 'https://lucaskaique.com.br/' },
       {
         source: '/making-of-blog-novo/',
-        destination: 'https://lucaskaique.com.br/making-of-blog-novo-gatsby-js'
+        destination: 'https://lucaskaique.com.br/'
       },
       { source: '/page/:slug*', destination: 'https://lucaskaique.com.br/' }
     ]
@@ -28,5 +29,11 @@ module.exports = {
   async redirects() {
     return []
   },
-  images: { domains: ['pbs.twimg.com', 'avatars.githubusercontent.com', 'res.cloudinary.com'] }
+  images: {
+    domains: [
+      'pbs.twimg.com',
+      'avatars.githubusercontent.com',
+      'res.cloudinary.com'
+    ]
+  }
 }
