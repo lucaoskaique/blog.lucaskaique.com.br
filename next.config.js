@@ -27,7 +27,14 @@ module.exports = {
     ]
   },
   async redirects() {
-    return []
+    return [
+      {
+        // redirect /loja to external url
+        source: '/loja',
+        destination: 'https://coice.sualojaonline.app',
+        permanent: true
+      },
+    ]
   },
   images: {
     domains: [
