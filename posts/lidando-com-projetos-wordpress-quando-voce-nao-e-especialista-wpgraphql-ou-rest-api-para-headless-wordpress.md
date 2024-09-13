@@ -17,9 +17,7 @@ tags:
 categories:
   - Wordpress
 ---
-* ![]()
-
-  Como eu decidi se valia a pena entrar nessa roubada (spoiler: ta indo!)
+* Como eu decidi se valia a pena entrar nessa roubada (spoiler: ta indo!)
 * O que eu fiz pra aprender o básico de WordPress rapidinho
 * Como eu me virei pra não deixar o cliente na mão
 * O que deu certo, o que deu errado, e o que eu aprendi com tudo isso
@@ -52,4 +50,5 @@ Isso permite que os desenvolvedores construam aplicativos usando diferentes tecn
 
 Este artigo explora duas abordagens para buscar dados do seu CMS WordPress headless para o seu framework de frontend, focando em dois métodos principais: WPGraphQL e REST API.
 
-![]()
+![Arquitetura de como o WordPress headless funciona.](https://kinsta.com/wp-content/uploads/2023/11/headless-cms-arcitecture.png "Arquitetura de como o WordPress headless funciona. (https://kinsta.com/pt/blog/wpgraphql-e-wp-rest-api/)")
+
