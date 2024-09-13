@@ -169,4 +169,4 @@ No fim das contas, o importante é escolher a ferramenta que melhor se encaixa n
 
 No meu caso, acabei optando pelo WPGraphQL pra fazer a POC (Proof of Concept) pro nosso cliente N. A ideia era usar o WordPress como backend pra alimentar nosso frontend em Next.js, que a gente escolheu pra ajudar no SEO, que era o grande foco do projeto.
 
-E aí, o que acharam dessa aventura? Já passaram por algo parecido? Conta aí nos comentários! Até a próxima, galera!
+E aí, o que acharam dessa lourada? Já passaram por algo parecido? Conta aí nos comentários! Até a próxima, galera!
