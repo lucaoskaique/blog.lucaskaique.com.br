@@ -1,16 +1,6 @@
-module.exports = {
-  webpack: (config, { dev, isServer }) => {
-    // Replace React with Preact only in client production build
-    if (!dev && !isServer) {
-      Object.assign(config.resolve.alias, {
-        react: 'preact/compat',
-        'react-dom/test-utils': 'preact/test-utils',
-        'react-dom': 'preact/compat'
-      })
-    }
-
-    return config
-  },
+// @ts-check
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   async rewrites() {
     return [
       { source: '/js/', destination: 'https://lucaskaique.com.br/' },
@@ -32,14 +22,37 @@ module.exports = {
         source: '/loja',
         destination: 'https://coice.sualojaonline.app',
         permanent: true
-      },
+      }
     ]
   },
   images: {
-    domains: [
-      'pbs.twimg.com',
-      'avatars.githubusercontent.com',
-      'res.cloudinary.com'
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'pbs.twimg.com',
+        port: '',
+        pathname: '/**'
+      },
+      {
+        protocol: 'https',
+        hostname: 'avatars.githubusercontent.com',
+        port: '',
+        pathname: '/**'
+      },
+      {
+        protocol: 'https',
+        hostname: 'res.cloudinary.com',
+        port: '',
+        pathname: '/**'
+      }
     ]
+  },
+  compiler: {
+    styledComponents: {
+      ssr: true,
+      displayName: true
+    }
   }
 }
+
+module.exports = nextConfig

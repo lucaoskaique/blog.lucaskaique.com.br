@@ -1,14 +1,14 @@
 const DefaultSEO = {
   openGraph: {
-    type: 'website',
-    locale: 'en_US',
-    url: 'https://blog.lucaskaique.com.br',
-    site_name: 'Lucas Kaique'
+    type: "website",
+    locale: "pt_BR",
+    url: "https://blog.lucaskaique.com.br",
+    site_name: "Lucas Kaique"
   },
   twitter: {
-    handle: '@lucaoskaique',
-    site: '@site',
-    cardType: 'summary_large_image'
+    handle: "@lucaoskaique",
+    site: "@site",
+    cardType: "summary_large_image"
   }
 }
 
